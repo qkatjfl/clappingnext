@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:text="👏 ClapNext"
+        android:textSize="32sp"
+        android:textColor="@color/text"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="시작"
+        android:backgroundTint="@color/primary"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <SeekBar
+        android:id="@+id/sensitivitySeekBar"
+        android:max="30"
+        android:progress="12"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnPattern"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="패턴 설정"
+        android:backgroundTint="@color/secondary"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary">#007AFF</color>
+    <color name="secondary">#34C759</color>
+    <color name="background">#F5F5F7</color>
+    <color name="text">#333333</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+</resources>
